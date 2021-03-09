@@ -1,2 +1,1 @@
-# React-Practice
-This is basically for practicing React.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
