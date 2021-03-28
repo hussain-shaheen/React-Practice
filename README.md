@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This contains the components needed for the FYP Project, I'll rename them later in the next commit and these components are used to be used in the main-app which I will add on later.
 
-This for the practice of React JS...
-I'va made this for future usage as this contains some of the stuff that I will require in the near future.
+There are issues with the main picture for the headlines but I'll look into that later, currently looking into the "more" feature requested.
