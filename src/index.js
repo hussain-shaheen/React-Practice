@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import faker from 'faker';
 import CommentDetail from "./CommentDetail";
 import ApprovalCard from "./ApprovalCard";
 
@@ -8,25 +9,34 @@ const App = () => {
     <div className="ui container comments">
         <ApprovalCard>
             <CommentDetail 
-                author="Jeremy" 
+                author={faker.company.companyName()}
                 timePost="Today at 2:40PM" 
-                content="Nice Car mate! Love that color."
+                heading={faker.lorem.sentences()}
+                content={faker.lorem.paragraphs()}
             />
         </ApprovalCard>
+        <br/>
+        <br/>
         <ApprovalCard>
             <CommentDetail 
-                author="James" 
-                timePost="Today at 9:40PM" 
-                content="That V8 is a beauty."
+                author={faker.company.companyName()}
+                timePost="Today at 9:40PM"
+                heading={faker.lorem.sentences()}
+                content={faker.lorem.paragraphs()}
             />
         </ApprovalCard>
+        <br/>
+        <br/>
         <ApprovalCard>
             <CommentDetail 
-                author="Richard" 
-                timePost="Today at 11:59PM" 
-                content="The look itself is enough."
+                author={faker.company.companyName()}
+                timePost="Today at 11:59PM"
+                heading={faker.lorem.sentences()}
+                content={faker.lorem.paragraphs()}
             />
         </ApprovalCard>
+        <br/>
+        <br/>
     </div>
   );
 };
